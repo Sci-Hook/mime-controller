@@ -47,7 +47,7 @@ exports.signatures = {
     MP3: {
         extension: "mp3",
         magic_numbers: {
-            start_with: ["494433"]
+            start_with: ["494433", "FFF3", "FFFB", "FFF2"]
         },
         mime: 'audio/mpeg'
     },

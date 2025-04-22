@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.validateHTML = void 0;
+exports.validateHTML = validateHTML;
 var fast_xml_parser_1 = require("fast-xml-parser");
 var parser = new fast_xml_parser_1.XMLParser({ htmlEntities: true });
 function validateHTML(data) {
@@ -17,4 +17,3 @@ function validateHTML(data) {
         return false;
     }
 }
-exports.validateHTML = validateHTML;

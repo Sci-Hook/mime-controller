@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.validateSVG = void 0;
+exports.validateSVG = validateSVG;
 var fast_xml_parser_1 = require("fast-xml-parser");
 var parser = new fast_xml_parser_1.XMLParser();
 function validateSVG(data) {
@@ -23,4 +23,3 @@ function validateSVG(data) {
         return false;
     }
 }
-exports.validateSVG = validateSVG;

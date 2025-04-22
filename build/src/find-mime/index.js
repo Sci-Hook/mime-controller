@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.findMime = void 0;
+exports.findMime = findMime;
 var signatures_1 = require("../signatures");
 var validate_1 = require("../validate");
 require("syncforeachloop");
@@ -71,4 +71,3 @@ function findMime(buffer) {
         });
     });
 }
-exports.findMime = findMime;

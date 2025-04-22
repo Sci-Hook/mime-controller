@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.validate = void 0;
+exports.validate = validate;
 var signatures_1 = require("../signatures");
 var check_start_1 = require("./check-start");
 require("syncforeachloop");
@@ -93,4 +93,3 @@ function validate(data, format) {
         });
     }); });
 }
-exports.validate = validate;

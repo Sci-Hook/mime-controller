@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.check_end = void 0;
+exports.check_end = check_end;
 function check_end(numbers, data_hex) {
     return new Promise(function (resolve, reject) {
         numbers.syncForEach(function (magic_number, magic_number_next) {
@@ -14,4 +14,3 @@ function check_end(numbers, data_hex) {
         });
     });
 }
-exports.check_end = check_end;

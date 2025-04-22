@@ -38,7 +38,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = require("./index");
 var fs_1 = require("fs");
-var test = (0, fs_1.readFileSync)('C:\\Users\\lim10\\Documents\\examples\\jpg\\r.jpg');
+var test = (0, fs_1.readFileSync)('/home/lim10/İndirilenler/success_bell-6776.mp3');
 function main() {
     return __awaiter(this, void 0, void 0, function () {
         var _a, _b;
